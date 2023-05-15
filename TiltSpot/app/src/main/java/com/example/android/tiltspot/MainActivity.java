@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     private String readFile() {
-        File fileEvents = new File(MainActivity.this.getFilesDir() + "/text/sample");
+        File fileEvents = new File(MainActivity.this.getFilesDir() + "/text/Tilt_Spot_Data");
         StringBuilder text = new StringBuilder();
         try {
             BufferedReader br = new BufferedReader(new FileReader(fileEvents));
